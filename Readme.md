@@ -9,12 +9,9 @@
 
 <p align="center"> 
 <a href="https://ddcreationstudios.github.io/fccvienna.github.io/ ">https://ddcreationstudios.github.io/fccvienna.github.io/ </a>
-
 </p>
 
-## Looks like this
-
-<p align="center"><img src="http://recordit.co/S7XJmQDih6" alt="gif"/></p>
+<img src="./images/screenshot.png" alt="gif"/>
 
 ## Build with 
 
