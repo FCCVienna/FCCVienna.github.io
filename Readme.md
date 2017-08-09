@@ -1,12 +1,8 @@
-# 🌐 Homepage of FreeCodeCamp Vienna
-
-## See here
+# Homepage of FreeCodeCamp Vienna
 
 <p align="center"> 
-<a href="https://fccvienna.github.io/">https://fccvienna.github.io/</a>
+<a href="https://fccvienna.github.io/">https://fccvienna.github.io/<br><img src="./images/screenshot.png" alt="img"/></a>
 </p>
-
-<img src="./images/screenshot.png" alt="img"/>
 
 ## Build with 
 
