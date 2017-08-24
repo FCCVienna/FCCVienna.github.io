@@ -4,12 +4,13 @@ body {
 
 /* Card hover tooltips */
 .card:not(:hover) .card-hover {
+	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: opacity 0.4s ease-in;
-	-moz-transition: opacity 0.4s ease-in;
-	-ms-transition: opacity 0.4s ease-in;
-	-o-transition: opacity 0.4s ease-in;
-	transition: opacity 0.4s ease-in;
+	-webkit-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-moz-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-ms-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-o-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	transition: opacity 0.4s ease-in, visibility 0s 0.4s;
 }
 .card .card-hover {
 	position: absolute;
@@ -20,12 +21,13 @@ body {
 	border-radius: 0.2em;
 	background-color: white;
 	z-index: 1;
+	visibility: visible;
 	opacity: 1;
-	-webkit-transition: opacity 0.2s ease-in;
-	-moz-transition: opacity 0.2s ease-in;
-	-ms-transition: opacity 0.2s ease-in;
-	-o-transition: opacity 0.2s ease-in;
-	transition: opacity 0.2s ease-in;
+	-webkit-transition: opacity 0.2s ease-in, visibility 0s;
+	-moz-transition: opacity 0.2s ease-in, visibility 0s;
+	-ms-transition: opacity 0.2s ease-in, visibility 0s;
+	-o-transition: opacity 0.2s ease-in, visibility 0s;
+	transition: opacity 0.2s ease-in, visibility 0s;
 }
 .card .card-hover::before {
 	content: "";
