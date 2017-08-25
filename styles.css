@@ -5,4 +5,44 @@ body {
 .sponsor-logo img{
 	height: 60px;
 	padding-right: 30px;
+
+/* Card hover tooltips */
+.card:not(:hover) .card-hover {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-moz-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-ms-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	-o-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+	transition: opacity 0.4s ease-in, visibility 0s 0.4s;
+}
+
+.card .card-hover {
+	position: absolute;
+	top: calc(100% + 0.5em);
+	width: 100%;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	border-radius: 0.2em;
+	background-color: white;
+	z-index: 1;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-in, visibility 0s;
+	-moz-transition: opacity 0.2s ease-in, visibility 0s;
+	-ms-transition: opacity 0.2s ease-in, visibility 0s;
+	-o-transition: opacity 0.2s ease-in, visibility 0s;
+	transition: opacity 0.2s ease-in, visibility 0s;
+}
+
+.card .card-hover::before {
+	content: "";
+	position: absolute;
+	top: -0.5em;
+	left: calc((100% - 1em)/2);
+	width: 0;
+	height: 0;
+	border-left: 0.5em solid transparent;
+	border-right: 0.5em solid transparent;
+	border-bottom: 0.5em solid white;
 }
