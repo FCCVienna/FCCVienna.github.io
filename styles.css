@@ -2,10 +2,6 @@ body {
 	font-family: 'Varela Round', sans-serif;
 }
 
-.sponsor-logo img{
-	height: 60px;
-	padding-right: 30px;
-
 /* Card hover tooltips */
 .card:not(:hover) .card-hover {
 	visibility: hidden;
@@ -16,7 +12,6 @@ body {
 	-o-transition: opacity 0.4s ease-in, visibility 0s 0.4s;
 	transition: opacity 0.4s ease-in, visibility 0s 0.4s;
 }
-
 .card .card-hover {
 	position: absolute;
 	top: calc(100% + 0.5em);
@@ -34,7 +29,6 @@ body {
 	-o-transition: opacity 0.2s ease-in, visibility 0s;
 	transition: opacity 0.2s ease-in, visibility 0s;
 }
-
 .card .card-hover::before {
 	content: "";
 	position: absolute;
