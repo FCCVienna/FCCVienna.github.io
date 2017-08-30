@@ -33,6 +33,6 @@
 
 ## Authors
 <p align="center">
-<a href="https://github.com/FCCVienna/FCCVienna.github.io/graphs/contributors">Contributers</a>
+<a href="https://github.com/FCCVienna/FCCVienna.github.io/graphs/contributors">Contributors</a>
 </p>
 
