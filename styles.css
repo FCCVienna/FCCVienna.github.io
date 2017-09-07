@@ -46,12 +46,13 @@ body {
 }
 
 .partner-logo img {
-	height: 100px;
+	height: 120px;
 }
 
 .partner-logo p {
 	color: black;
 	margin-top: 5px;
+	font-size: 1.2em;
 }
 
 .contributors a {
@@ -59,7 +60,6 @@ body {
 }
 
 .contributors li {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #004d40;
-
 }
