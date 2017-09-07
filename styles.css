@@ -48,8 +48,18 @@ body {
 .partner-logo img {
 	height: 100px;
 }
+
 .partner-logo p {
-	text-decoration: none;
 	color: black;
 	margin-top: 5px;
+}
+
+.contributors a {
+	color: black;
+}
+
+.contributors li {
+	font-size: 1.2em;
+	color: #004d40;
+
 }
