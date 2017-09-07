@@ -63,3 +63,8 @@ body {
 	font-size: 1.3em;
 	color: #004d40;
 }
+
+dt {
+	font-weight: bold;
+	font-size: 1.1em;
+}
