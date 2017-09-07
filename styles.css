@@ -44,3 +44,12 @@ body {
 .sponsor-logo img {
 	height: 60px;
 }
+
+.partner-logo img {
+	height: 100px;
+}
+.partner-logo p {
+	text-decoration: none;
+	color: black;
+	margin-top: 5px;
+}
