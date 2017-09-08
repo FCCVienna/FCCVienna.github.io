@@ -44,3 +44,25 @@ body {
 .sponsor-logo img {
 	height: 60px;
 }
+
+.partner-logo img {
+	height: 120px;
+}
+
+.partner-logo p {
+	margin-top: 5px;
+}
+
+.normalize-ul a {
+	color: black;
+}
+
+.normalize-ul li {
+	font-size: 1.2em;
+	color: #004d40;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1.1em;
+}
