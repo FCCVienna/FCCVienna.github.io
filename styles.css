@@ -50,25 +50,19 @@ body {
 }
 
 .partner-logo p {
-	color: black;
 	margin-top: 5px;
-	font-size: 1.2em;
 }
 
-.contributors a {
+.normalize-ul a {
 	color: black;
 }
 
-.contributors li {
-	font-size: 1.3em;
+.normalize-ul li {
+	font-size: 1.2em;
 	color: #004d40;
 }
 
 dt {
 	font-weight: bold;
 	font-size: 1.1em;
-}
-
-.li-normalize {
-font-size: 1.2em;
 }
