@@ -14,7 +14,7 @@
 <p align="center">
   <h3 align="center">MaterializeCSS</h3>
   <p align="center">
-    Materialize, a CSS Framework based on material design.
+    Materialize, a CSS Framework based on Material Design.
     <br>
     <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
 </p>
