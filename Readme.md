@@ -4,7 +4,7 @@
 <a href="https://fccvienna.github.io/">https://fccvienna.github.io/<br><img src="./images/screenshot.png" alt="img"/></a>
 </p>
 
-## Build with 
+## Built with 
 
 <p align="center">
   <a href="http://materializecss.com/">
