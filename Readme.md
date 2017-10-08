@@ -4,7 +4,7 @@
 <a href="https://fccvienna.github.io/">https://fccvienna.github.io/<br><img src="./images/screenshot.png" alt="img"/></a>
 </p>
 
-## Build with 
+## Built with 
 
 <p align="center">
   <a href="http://materializecss.com/">
@@ -14,7 +14,7 @@
 <p align="center">
   <h3 align="center">MaterializeCSS</h3>
   <p align="center">
-    Materialize, a CSS Framework based on material design.
+    Materialize, a CSS Framework based on Material Design.
     <br>
     <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
 </p>
