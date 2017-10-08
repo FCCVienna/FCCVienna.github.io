@@ -15,6 +15,21 @@
 </head>
 
 <body>
+  <script>
+  function brokenImage(link,id){
+    //alert("broken image!");
+    console.log(id+" image broken");
+    var image=document.getElementById(id+'new');
+    var old=document.getElementById(id);
+    sub="<img src='"+link+"' alt='background picture showing a view of Vienna' />";
+    console.log(sub);
+    image.innerHTML=sub;
+    image.style.display="inline";
+    old.style.display="none";
+  }
+
+
+  </script>
 
   <div class="navbar-fixed">
     <nav>
@@ -31,10 +46,12 @@
   </div>
 
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="https://images.unsplash.com/photo-1466656528034-6b43e26d9834?dpr=2&auto=format&fit=crop&w=1080&h=268&q=80&cs=tinysrgb&crop="
+  <div class="parallax-container" id="steinbauer1">
+    <div class="parallax" ><img src="https://images.unsplash.com/photo-1466656528034-6b43e26d9834?dpr=2&auto=format&fit=crop&w=1080&h=268&q=80&cs=tinysrgb&crop="
+        onerror="brokenImage('./images/steinbauer1ultra.jpg','steinbauer1')"
         alt="Background picture showing a view of Vienna" /></div>
   </div>
+  <div id="steinbauer1new" style="display:none"></div>
 
   <div class="section teal">
     <div class="row container center">
@@ -171,7 +188,7 @@
       </li>
       <li class="section center">
         <h4>Number of people helped out</h4>
-        <p>A lot &lt;3</p>
+        <p>A lot </p>
       </li>
     </ul>
   </div>
@@ -215,7 +232,7 @@
     <p class="center">These are the people who have contributed actively more than once with content for our meetings. Without these creators, there would be no FCCVienna.</p>
     <div class="col s12 m4 offset-m2">
       <ul class="normalize-ul center">
-        <li><a href="https://github.com/MatthiasLiszt">Mathias Liszt</a></li>
+        <li><a href="https://matthiasliszt.github.io">Matthias Liszt</a></li>
         <li><a href="https://github.com/42pre">Martin Plochberger</a></li>
         <li><a href="https://github.com/edorivai">Edo Rivai</a></li>
         <li><a href="https://github.com/bonny3d">Bonny Dongre</a></li>
@@ -236,10 +253,12 @@
 
   </div>
 </div>
-  <div class="parallax-container">
+  <div class="parallax-container" id="steinbauer2">
     <div class="parallax"><img src="https://images.unsplash.com/photo-1456746263245-1d5a803ee466?dpr=2&auto=format&fit=crop&w=1080&h=291&q=80&cs=tinysrgb&crop="
+        onerror="brokenImage('./images/steinbauer2ultra.jpg','steinbauer2')"
         alt="Background picture showing skyscrapers in Vienna" /></div>
   </div>
+  <div id="steinbauer2new" style="display:none;"></div>
 
 
   <footer class="page-footer teal">
@@ -268,9 +287,9 @@
             <li>
               <div class="row valign-wrapper">
                 <div class="col s2">
-                  <a href="http://rob.ee/">
+                  <a href="http://rob.ee/">   
                   <img src="https://avatars3.githubusercontent.com/u/13132899?v=3&s=460" alt="Avatar of Robert Axelsen" class="circle responsive-img">
-                </a>
+                 </a>
                 </div>
                 <div class="col s10">
                   <span class="black-text">
@@ -312,6 +331,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script src="./getresolution.js"></script>
   <script src="./index.js"></script>
 
 </body>
