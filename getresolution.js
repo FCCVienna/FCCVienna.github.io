@@ -2,7 +2,7 @@
 function getResolution(){
  var availableWidth=screen.availWidth;
 
- return avaiableWidth; 
+ return availableWidth; 
 }
 
 
