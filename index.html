@@ -2,333 +2,326 @@
 <html lang="en">
 
 <head>
-  <title>FreeCodeCamp Vienna</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-  <link rel="stylesheet" href="./styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <title>FreeCodeCamp Vienna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
 </head>
 
 <body>
-  <script>
-  function brokenImage(link,id){
-    var image=document.getElementById(id+'new');
-    var old=document.getElementById(id);
-    sub="<img src='"+link+"' alt='background picture showing a view of Vienna' />";
-    image.innerHTML=sub;
-    image.style.display="inline";
-    old.style.display="none";
-  }
+    <script>
+        function brokenImage(link, id) {
+            var image = document.getElementById(id + 'new');
+            var old = document.getElementById(id);
+            sub = "<img src='" + link + "' alt='background picture showing a view of Vienna' />";
+            image.innerHTML = sub;
+            image.style.display = "inline";
+            old.style.display = "none";
+        }
+    </script>
 
-
-  </script>
-
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper teal">
-        <a href="#" class="brand-logo">FreeCodeCampVienna</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/"><i class="fa fa-meetup material-icons" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/FCCVienna/FCCVienna"><i class="fa fa-github material-icons" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/groups/free.code.camp.vienna.austria"><i class="fa fa-facebook material-icons" aria-hidden="true"></i></a></li>
-          <li><a href="https://twitter.com/freecodecampvie"><i class="fa fa-twitter material-icons" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-
-  <div class="parallax-container" id="steinbauer1">
-    <div class="parallax" ><img src="https://images.unsplash.com/photo-1466656528034-6b43e26d9834?dpr=2&auto=format&fit=crop&w=1080&h=268&q=80&cs=tinysrgb&crop="
-        onerror="brokenImage('./images/steinbauer1ultra.jpg','steinbauer1')"
-        alt="Background picture showing a view of Vienna" /></div>
-  </div>
-  <div id="steinbauer1new" style="display:none"></div>
-
-  <div class="section teal">
-    <div class="row container center">
-      <h5>The official local group of</h5>
-      <h3><a href="https://www.freecodecamp.org/" class="teal-text text-darken-4">FreeCodeCamp</a></h3>
-      <h5>in Vienna, Austria</h5>
-      <img src="./images/austriaflag.png" alt="Flag of Austria" height=100em />
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper teal">
+                <a href="#" class="brand-logo">FreeCodeCampVienna</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/"><i class="fa fa-meetup material-icons" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/FCCVienna/FCCVienna"><i class="fa fa-github material-icons" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/groups/free.code.camp.vienna.austria"><i class="fa fa-facebook material-icons" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/freecodecampvie"><i class="fa fa-twitter material-icons" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </div>
 
-  <div class="section teal">
-    <div class="row center">
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card teal darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Shared Values</span>
-              <h2><i class="fa fa-free-code-camp large" aria-hidden="true"></i></h2>
-              <p>We completely share the values and ideas of the FreeCodeCamp platform.</p>
-            </div>
-            <div class="section card-hover">
-							<a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp.org</a> is a place, where you can learn how to code - for free
-						</div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card teal darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Exchange</span>
-              <h2><i class="fa fa-connectdevelop large" aria-hidden="true"></i></h2>
-              <p>We connect developers and help beginners. We get people into coding.</p>
-            </div>
-            <div class="section card-hover">Get in touch with us on <a href="https://www.facebook.com/groups/free.code.camp.vienna.austria">Facebook</a> or <a href="https://twitter.com/freecodecampvie">Twitter</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card teal darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Events</span>
-              <h2><i class="fa fa-calendar large" aria-hidden="true"></i></h2>
-              <p>We organize events, talks, coding sessions and just have fun. :) </p>
-            </div>
-            <div class="section card-hover">See our next event on <a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/" target="_blank">meetup</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="parallax-container" id="steinbauer1">
+        <div class="parallax"><img src="https://images.unsplash.com/photo-1466656528034-6b43e26d9834?dpr=2&auto=format&fit=crop&w=1080&h=268&q=80&cs=tinysrgb&crop=" onerror="brokenImage('./images/steinbauer1ultra.jpg','steinbauer1')" alt="Background picture showing a view of Vienna" /></div>
     </div>
-  </div>
+    <div id="steinbauer1new" style="display:none"></div>
 
-
-  <div class="parallax-container">
-    <div class="parallax"><img src="https://secure.meetupstatic.com/photos/event/6/d/e/d/highres_462628141.jpeg" alt="Background picture showing FreeCodeCampers at a meetup" /></div>
-  </div>
-
-  <div class="section teal darken-1">
-    <div class="container row">
-			<div class="col s12 m4">
-				<h3 class="center">Goals</h3>
-				<p>Connecting people with similar ambitions in real life and provide a platform for exchange and improvement. Everybody with an interest in coding is welcome. We are leading the local FCC Group in Vienna and provide monthly meetups for members.</p>
-			</div>
-			<div class="col s12 m8">
-				<h3 class="center">Program</h3>
-				<div class="row">
-					<div class="col s12 m6">
-						<dl>
-							<dt>Showcase</dt>
-							<dd> A person guiding the audience through a codebase they are currently working on.</dd>
-							<dt>Discussion Circle</dt>
-							<dd> Setting different topics and letting the audience discuss.</dd>
-						</dl>
-					</div>
-					<div class="col s12 m6">
-						<dl><dt>Presentations and Talks</dt>
-							<dd> Different topics with following QA</dd>
-							<dt>Coding Sessions</dt>
-							<dd> Mob Sessions</dd>
-							<dd> FCC Algorithms</dd>
-							<dd> Other small Algorithms</dd>
-						</dl>
-					</div>
-				</div>
-			</div>
+    <div class="section teal">
+        <div class="row container center">
+            <h5>The official local group of</h5>
+            <h3><a href="https://www.freecodecamp.org/" class="teal-text text-darken-4">FreeCodeCamp</a></h3>
+            <h5>in Vienna, Austria</h5>
+            <img src="./images/austriaflag.png" alt="Flag of Austria" height=100em />
+        </div>
     </div>
-  </div> 
 
-  <div class="section teal">
-    <div class="container row">
-      <div class="col s12 m12 center">
-        <h3>Sponsors</h3>
-        <p>We are always looking for sponsors to cover free drinks and food, or the space where we can host our meetups! </br><a class="teal-text text-darken-4" href="#about">Get
+    <div class="section teal">
+        <div class="row center">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card teal darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Shared Values</span>
+                            <h2><i class="fa fa-free-code-camp large" aria-hidden="true"></i></h2>
+                            <p>We completely share the values and ideas of the FreeCodeCamp platform.</p>
+                        </div>
+                        <div class="section card-hover">
+                            <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp.org</a> is a place, where you can learn how to code - for free
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card teal darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Exchange</span>
+                            <h2><i class="fa fa-connectdevelop large" aria-hidden="true"></i></h2>
+                            <p>We connect developers and help beginners. We get people into coding.</p>
+                        </div>
+                        <div class="section card-hover">Get in touch with us on <a href="https://www.facebook.com/groups/free.code.camp.vienna.austria">Facebook</a> or <a href="https://twitter.com/freecodecampvie">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card teal darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Events</span>
+                            <h2><i class="fa fa-calendar large" aria-hidden="true"></i></h2>
+                            <p>We organize events, talks, coding sessions and just have fun. :) </p>
+                        </div>
+                        <div class="section card-hover">See our next event on <a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/" target="_blank">meetup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://secure.meetupstatic.com/photos/event/6/d/e/d/highres_462628141.jpeg" alt="Background picture showing FreeCodeCampers at a meetup" /></div>
+    </div>
+
+    <div class="section teal darken-1">
+        <div class="container row">
+            <div class="col s12 m4">
+                <h3 class="center">Goals</h3>
+                <p>Connecting people with similar ambitions in real life and provide a platform for exchange and improvement. Everybody with an interest in coding is welcome. We are leading the local FCC Group in Vienna and provide monthly meetups for members.</p>
+            </div>
+            <div class="col s12 m8">
+                <h3 class="center">Program</h3>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <dl>
+                            <dt>Showcase</dt>
+                            <dd> A person guiding the audience through a codebase they are currently working on.</dd>
+                            <dt>Discussion Circle</dt>
+                            <dd> Setting different topics and letting the audience discuss.</dd>
+                        </dl>
+                    </div>
+                    <div class="col s12 m6">
+                        <dl><dt>Presentations and Talks</dt>
+                            <dd> Different topics with following QA</dd>
+                            <dt>Coding Sessions</dt>
+                            <dd> Mob Sessions</dd>
+                            <dd> FCC Algorithms</dd>
+                            <dd> Other small Algorithms</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section teal">
+        <div class="container row">
+            <div class="col s12 m12 center">
+                <h3>Sponsors</h3>
+                <p>We are always looking for sponsors to cover free drinks and food, or the space where we can host our meetups! </br><a class="teal-text text-darken-4" href="#about">Get
           in contact with one of the organizers to discuss further details.</a></p>
-      </div>
-    </div>
-    <div class="container row" style="padding: 20px 0;">
-      <div class="col s12 m3"><a class="sponsor-logo" href="http://www.sektor5.at/">
+            </div>
+        </div>
+        <div class="container row" style="padding: 20px 0;">
+            <div class="col s12 m3"><a class="sponsor-logo" href="http://www.sektor5.at/">
           <img class="center-block" src="./images/sektor5-logo.png" alt="sektor5">
         </a></div>
-      <div class="col s12 m3"><a class="sponsor-logo" href="http://www.stockwerk.co.at/">
+            <div class="col s12 m3"><a class="sponsor-logo" href="http://www.stockwerk.co.at/">
           <img class="center-block" src="./images/stockwerk-logo.png" alt="Stockwerk">
         </a></div>
-      <div class="col s12 m3"><a class="sponsor-logo" href="http://kivu.tech/"><img class="center-block" src="./images/kivu-logo.png" alt="KIVU"></a></div>
-      <div class="col s12 m3"><a class="sponsor-logo" href="http://101.at/"><img class="center-block" src="./images/101-logo.png" alt="101CodingDesign"></a></div>
+            <div class="col s12 m3"><a class="sponsor-logo" href="http://kivu.tech/"><img class="center-block" src="./images/kivu-logo.png" alt="KIVU"></a></div>
+            <div class="col s12 m3"><a class="sponsor-logo" href="http://101.at/"><img class="center-block" src="./images/101-logo.png" alt="101CodingDesign"></a></div>
 
+        </div>
     </div>
-  </div>
 
 
-<div class="section teal darken-1">
-  <div class="container row">
-    <h3 class="center">Our work reflected in numbers</h3>
-    <div class="section">
-      <img src="https://github.com/FCCVienna/FCCVienna.github.io/blob/master/images/meetupStats.png?raw=true" class="responsive-img z-depth-5" />
+    <div class="section teal darken-1">
+        <div class="container row">
+            <h3 class="center">Our work reflected in numbers</h3>
+            <div class="section">
+                <img src="https://github.com/FCCVienna/FCCVienna.github.io/blob/master/images/meetupStats.png?raw=true" class="responsive-img z-depth-5" />
+            </div>
+            <ul id="staggeredList">
+                <li class="section center section">
+                    <h4>Founded:</h4>
+                    <p>November 13th 2015</p>
+                </li>
+                <li class="section center">
+                    <h4>Currently:</h4>
+                    <p>More than 700 meetup.com members</p>
+                    <p>More than 550 facebook members</p>
+                    <p>More than 150 twitter followers</p>
+                </li>
+                <li class="section center">
+                    <h4>Contributed on Open Source:</h4>
+                    <p>More than 150 Github commits</p>
+                </li>
+                <li class="section center">
+                    <h4>Events organized:</h4>
+                    <p>22</p>
+                </li>
+                <li class="section center">
+                    <h4>Number of people helped out</h4>
+                    <p>A lot </p>
+                </li>
+            </ul>
+        </div>
     </div>
-    <ul id="staggeredList">
-      <li class="section center section">
-        <h4>Founded:</h4>
-        <p>November 13th 2015</p>
-      </li>
-      <li class="section center">
-        <h4>Currently:</h4>
-        <p>More than 700 meetup.com members</p>
-        <p>More than 550 facebook members</p>
-        <p>More than 150 twitter followers</p>
-      </li>
-      <li class="section center">
-        <h4>Contributed on Open Source:</h4>
-        <p>More than 150 Github commits</p>
-      </li>
-      <li class="section center">
-        <h4>Events organized:</h4>
-        <p>22</p>
-      </li>
-      <li class="section center">
-        <h4>Number of people helped out</h4>
-        <p>A lot </p>
-      </li>
-    </ul>
-  </div>
-</div>
 
-<div class="section teal">
-  <div class="container row">
-    <h3 class="center">Partners and Friends of FCCVienna</h3>
-    <p class="center">If you enjoyed taking part in one of our meetings, and you feel like connecting to other people, these partners are definitely worth checking out.</p>
-  </div>
-  <div class="container row">
-    <ul class="normalize-ul">
-      <li>
-      <div class="col s12 m4">
-        <a class="partner-logo" href="http://www.webclerks.at/">
+    <div class="section teal">
+        <div class="container row">
+            <h3 class="center">Partners and Friends of FCCVienna</h3>
+            <p class="center">If you enjoyed taking part in one of our meetings, and you feel like connecting to other people, these partners are definitely worth checking out.</p>
+        </div>
+        <div class="container row">
+            <ul class="normalize-ul">
+                <li>
+                    <div class="col s12 m4">
+                        <a class="partner-logo" href="http://www.webclerks.at/">
           <img class="center-block" src="./images/webclerks-logo.jpeg" alt="webclerks">
           <p class="center">Webclerks</p>
         </a>
-      </div>
-      </li>
-      <li>
-      <div class="col s12 m4">
-        <a class="partner-logo" href="https://reactiveconf.com/">
+                    </div>
+                </li>
+                <li>
+                    <div class="col s12 m4">
+                        <a class="partner-logo" href="https://reactiveconf.com/">
           <img class="center-block" src="./images/reactive-conf-logo.jpg" alt="reactive conf">
         <p class="center">ReactiveConf</p>
         </a>
-      </div>
-      <div class="col s12 m4">
-        <a class="partner-logo" href="https://101.at/">
+                    </div>
+                    <div class="col s12 m4">
+                        <a class="partner-logo" href="https://101.at/">
           <img class="center-block" src="./images/101-logo.png" alt="101 coding und design">
         <p class="center">101: Coding und Design</p>
         </a>
-      </div>
-    </li>
-  </div>
-</div>
-
-<div class="section teal darken-1">
-  <div class="container row">
-    <h3 class="center">Contributors</h3>
-    <p class="center">These are the people who have contributed actively more than once with content for our meetings. Without these creators, there would be no FCCVienna.</p>
-    <div class="col s12 m4 offset-m2">
-      <ul class="normalize-ul center">
-        <li><a href="https://matthiasliszt.github.io">Matthias Liszt</a></li>
-        <li><a href="https://github.com/42pre">Martin Plochberger</a></li>
-        <li><a href="https://github.com/edorivai">Edo Rivai</a></li>
-        <li><a href="https://github.com/bonny3d">Bonny Dongre</a></li>
-        <li><a href="https://github.com/abisz">Simon Reinsperger</a></li>
-        <li>Markus Hösel</li>
-      </ul>
-    </div>
-    <div class="col s12 m4">
-      <ul class="normalize-ul center">
-        <li>Joachim Tecklenburg</li>
-        <li>Michael Beck</li>
-        <li>Manuel Matuzovic</li>
-        <li><a href="https://github.com/lukastillmann">Lukas Tillmann</a></li>
-        <li>Adi Marvillo</li>
-        <li><a href="https://github.com/phbrasiliano">Phellipe Brasiliano</li></a>
-      </ul>
+                    </div>
+                </li>
+        </div>
     </div>
 
-  </div>
-</div>
-  <div class="parallax-container" id="steinbauer2">
-    <div class="parallax"><img src="https://images.unsplash.com/photo-1456746263245-1d5a803ee466?dpr=2&auto=format&fit=crop&w=1080&h=291&q=80&cs=tinysrgb&crop="
-        onerror="brokenImage('./images/steinbauer2ultra.jpg','steinbauer2')"
-        alt="Background picture showing skyscrapers in Vienna" /></div>
-  </div>
-  <div id="steinbauer2new" style="display:none;"></div>
+    <div class="section teal darken-1">
+        <div class="container row">
+            <h3 class="center">Contributors</h3>
+            <p class="center">These are the people who have contributed actively more than once with content for our meetings. Without these creators, there would be no FCCVienna.</p>
+            <div class="col s12 m4 offset-m2">
+                <ul class="normalize-ul center">
+                    <li><a href="https://matthiasliszt.github.io">Matthias Liszt</a></li>
+                    <li><a href="https://github.com/42pre">Martin Plochberger</a></li>
+                    <li><a href="https://github.com/edorivai">Edo Rivai</a></li>
+                    <li><a href="https://github.com/bonny3d">Bonny Dongre</a></li>
+                    <li><a href="https://github.com/abisz">Simon Reinsperger</a></li>
+                    <li>Markus Hösel</li>
+                </ul>
+            </div>
+            <div class="col s12 m4">
+                <ul class="normalize-ul center">
+                    <li>Joachim Tecklenburg</li>
+                    <li>Michael Beck</li>
+                    <li>Manuel Matuzovic</li>
+                    <li><a href="https://github.com/lukastillmann">Lukas Tillmann</a></li>
+                    <li>Adi Marvillo</li>
+                    <li><a href="https://github.com/phbrasiliano">Phellipe Brasiliano</li></a>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="parallax-container" id="steinbauer2">
+        <div class="parallax"><img src="https://images.unsplash.com/photo-1456746263245-1d5a803ee466?dpr=2&auto=format&fit=crop&w=1080&h=291&q=80&cs=tinysrgb&crop=" onerror="brokenImage('./images/steinbauer2ultra.jpg','steinbauer2')" alt="Background picture showing skyscrapers in Vienna" /></div>
+    </div>
+    <div id="steinbauer2new" style="display:none;"></div>
 
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div id="about" class="col l6 s12">
-          <h5 class="white-text">About</h5>
-          <p class="grey-text text-lighten-4">This is one of the local groups of the <a href="https://www.freecodecamp.org/" class="teal-text text-darken-4">FreeCodeCamp</a>            platform.</p>
-          <br/>
-          <h6 class="black-text">Currently organized by: </h6>
-          <ul>
-            <li>
-              <div class="row valign-wrapper">
-                <div class="col s2">
-                <a href="http://www.createdd.com/">
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div id="about" class="col l6 s12">
+                    <h5 class="white-text">About</h5>
+                    <p class="grey-text text-lighten-4">This is one of the local groups of the <a href="https://www.freecodecamp.org/" class="teal-text text-darken-4">FreeCodeCamp</a> platform.</p>
+                    <br/>
+                    <h6 class="black-text">Currently organized by: </h6>
+                    <ul>
+                        <li>
+                            <div class="row valign-wrapper">
+                                <div class="col s2">
+                                    <a href="http://www.createdd.com/">
                   <img src="https://avatars3.githubusercontent.com/u/22077628?v=3&s=460" alt="Avatar of Daniel Deutsch" class="circle responsive-img">
                 </a>
-                </div>
-                <div class="col s10">
-                  <span class="black-text">
+                                </div>
+                                <div class="col s10">
+                                    <span class="black-text">
                 Daniel Deutsch (organizer) - Aspiring Web Developer with Business Law Background. Pushing the limits to make the world a better place.
               </span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row valign-wrapper">
-                <div class="col s2">
-                 <a href="http://rob.ee/">   
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row valign-wrapper">
+                                <div class="col s2">
+                                    <a href="http://rob.ee/">   
                   <img src="https://avatars3.githubusercontent.com/u/13132899?v=3&s=460" alt="Avatar of Robert Axelsen" class="circle responsive-img">
                  </a>
-                </div>
-                <div class="col s10">
-                  <span class="black-text">
+                                </div>
+                                <div class="col s10">
+                                    <span class="black-text">
                 Robert Axelsen (founder and organizer) - Software Developer and Public Speaker, passionate about Open Source, Community and Education. Life-long learner.
 
               </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-            </li>
-          </ul>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Other platforms</h5>
-            <ul>
-              <li><a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/" class="teal-text text-darken-4">Meetup.com</a></li>
-              <li><a href="https://github.com/FCCVienna/FCCVienna" class="teal-text text-darken-4">Github</a></li>
-              <li><a href="https://www.facebook.com/groups/free.code.camp.vienna.austria" class="teal-text text-darken-4">Facebook</a></li>
-              <li><a href="https://twitter.com/freecodecampvie" class="teal-text text-darken-4">Twitter</a></li>
-              <li><a href="https://www.instagram.com/freecodecamp_vienna/" class="teal-text text-darken-4">Instagram</a></li>
-            </ul>
-            <h5 class="white-text">Contact</h5>
-            <h6 class="teal-text text-darken-4">freecodecampvie@gmail.com</h6>
-            <h5 class="white-text">Photo credit</h5>
-            <a href="https://unsplash.com/@usinglight" class="teal-text text-darken-4">    Photo by Stefan Steinbauer on Unsplash</a>
-          </div>
-          </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Other platforms</h5>
+                    <ul>
+                        <li><a href="https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/" class="teal-text text-darken-4">Meetup.com</a></li>
+                        <li><a href="https://github.com/FCCVienna/FCCVienna" class="teal-text text-darken-4">Github</a></li>
+                        <li><a href="https://www.facebook.com/groups/free.code.camp.vienna.austria" class="teal-text text-darken-4">Facebook</a></li>
+                        <li><a href="https://twitter.com/freecodecampvie" class="teal-text text-darken-4">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/freecodecamp_vienna/" class="teal-text text-darken-4">Instagram</a></li>
+                    </ul>
+                    <h5 class="white-text">Contact</h5>
+                    <h6 class="teal-text text-darken-4">freecodecampvie@gmail.com</h6>
+                    <h5 class="white-text">Photo credit</h5>
+                    <a href="https://unsplash.com/@usinglight" class="teal-text text-darken-4">    Photo by Stefan Steinbauer on Unsplash</a>
+                </div>
+            </div>
         </div>
         <div class="footer-copyright">
-          <div class="container center">
-            <p class="white-text">© 2017 Copyright FCCVienna</p>
-            <p class="teal-text text-darken-4">
-              Built by <a href="http://createdd.com/" class="teal-text text-darken-4">Daniel Deutsch</a> and a bunch
-              of enthusiastic contributors on <a href="https://github.com/FCCVienna/FCCVienna.github.io" class="teal-text text-darken-4">GitHub</a>.
-            </p>
-          </div>
-          </div>
-  </footer>
+            <div class="container center">
+                <p class="white-text">© 2017 Copyright FCCVienna</p>
+                <p class="teal-text text-darken-4">
+                    Built by <a href="http://createdd.com/" class="teal-text text-darken-4">Daniel Deutsch</a> and a bunch of enthusiastic contributors on <a href="https://github.com/FCCVienna/FCCVienna.github.io" class="teal-text text-darken-4">GitHub</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
 
 </body>
 
