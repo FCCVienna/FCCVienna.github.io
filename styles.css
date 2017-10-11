@@ -47,6 +47,8 @@ body {
 
 .sponsor-logo img {
   height: 60px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .partner-logo img {
