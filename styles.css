@@ -5,9 +5,10 @@ body {
 
 /* Card hover tooltips */
 /* Contributor card css */
-.card-panel
+.card-panel 
 {
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  /*background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);*/
+  background-color: #1DE9B6;
   box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
   border-radius: .375rem;
 }
