@@ -46,7 +46,9 @@ body {
 }
 
 .sponsor-logo img {
-  height: 60px;
+  max-height: 100px;
+  max-width: 100%;
+  padding: 20px;
 }
 
 .partner-logo img {
