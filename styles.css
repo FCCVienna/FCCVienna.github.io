@@ -72,3 +72,20 @@ dt {
   font-weight: bold;
   font-size: 1.1em;
 }
+
+nav .brand-logo {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+    #steinbauer1{
+        display: none;   
+    }
+
+    nav .brand-logo {
+        padding-left: 0px;
+    }
+    .sponsor-logo img{
+        margin: 10px auto;
+    }
+}
