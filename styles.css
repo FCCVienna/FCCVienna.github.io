@@ -89,3 +89,10 @@ nav .brand-logo {
         margin: 10px auto;
     }
 }
+
+.profile-picture {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
