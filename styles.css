@@ -77,6 +77,14 @@ nav .brand-logo {
     padding-left: 10px;
 }
 
+<div class="section teal">
+    <div class="row container center">
+      <h2>The official local group of</h2>
+      <h3><a href="https://www.freecodecamp.org/" class="teal-text text-darken-4">FreeCodeCamp</a> in Vienna, Austria</h3>
+      <img src="./images/austriaflag.png" alt="Flag of Austria" height=100em />
+    </div>
+  </div>
+
 @media only screen and (max-width: 760px) {
     #steinbauer1{
         display: none;   
@@ -87,5 +95,14 @@ nav .brand-logo {
     }
     .sponsor-logo img{
         margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .first-title {
+      font-size: 25px;
+    }
+    .second-title {
+      font-size: 23px;
     }
 }
