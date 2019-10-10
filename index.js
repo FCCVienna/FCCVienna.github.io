@@ -29,6 +29,20 @@ $(document).ready(function() {
       e.stopPropagation();
       $('.carousel').carousel('prev');
    });
+
+  // Scrolltop button
+  $(window).scroll(function () {
+    if ($(document).height() > 1000 && $(window).scrollTop() > $(".navbar-fixed").outerHeight()) {
+      $("#scrolltop").fadeIn();
+    } else {
+      $("#scrolltop").fadeOut();
+    }
+  })
+  $("#scrolltop").click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 1000);
+  });
 });
 
 function brokenImage(link, id) {
