@@ -370,7 +370,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container center">
-        <p class="white-text">© 2017 Copyright FCCVienna</p>
+        <p class="white-text" id="copyright"></p>
         <p class="teal-text text-darken-4">
           Built by <a href="http://createdd.com/" class="teal-text text-darken-4">Daniel Deutsch</a> and a bunch of enthusiastic contributors on <a href="https://github.com/FCCVienna/FCCVienna.github.io" class="teal-text text-darken-4">GitHub</a>.
         </p>
@@ -386,5 +386,7 @@
   <script src="./index.js"></script>
 
 </body>
-
+<script>
+  document.getElementById('copyright').appendChild(document.createTextNode(`© ${new Date().getFullYear()}  Copyright FCCVienna`))
+</script>
 </html>
